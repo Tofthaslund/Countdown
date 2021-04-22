@@ -7,3 +7,23 @@
 }
 
 
+.deadline-format{
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(39, 49, 145);
+}
+
+.deadline-format h4{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.deadline-format span{
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
