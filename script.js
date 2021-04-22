@@ -24,4 +24,23 @@ const weekdays = [
 const dateNy = document.querySelector('.date-ny');
 const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
-console.log(items);
+
+
+let futureDate = new Date(2021,11,30,7,30,0);
+console.log(futureDate);
+// year
+const year = futureDate.getFullYear();
+// hours
+const hours = futureDate.getHours();
+// Minutes
+const minutes = futureDate.getMinutes();
+// Month
+let month = futureDate.getMonth();
+month = months[month]
+// Get date of month
+const date = futureDate.getDate();
+// weekday
+const weekday = weekdays[futureDate.getDay()];
+
+
+dateNy.textContent = `New Years eve party starts ${weekday}, ${date} ${month} ${year} at ${hours}:${minutes}pm`
