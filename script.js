@@ -20,3 +20,8 @@ const weekdays = [
     "Thursday",
     "Friday",
 ];
+
+const dateNy = document.querySelector('.date-ny');
+const deadline = document.querySelector('.deadline');
+const items = document.querySelectorAll('.deadline-format h4');
+console.log(items);
