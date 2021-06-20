@@ -26,7 +26,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 
 
-let futureDate = new Date(2021,11,30,7,30,0);
+let futureDate = new Date(2022,04,27,7,30,0);
 
 // year
 const year = futureDate.getFullYear();
@@ -43,7 +43,7 @@ const date = futureDate.getDate();
 const weekday = weekdays[futureDate.getDay()];
 
 
-dateNy.textContent = `New Years eve party starts ${weekday}, ${date} ${month} ${year} at ${hours}:${minutes}pm`
+dateNy.textContent = `Moving to Sydney ${weekday}, ${date} ${month} ${year} at ${hours}:${minutes}pm`
 
 // furture timein ms
 const futureTime = futureDate.getTime();
